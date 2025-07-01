@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .time-frame{
+      display: inline-block;
+    }
+    .start-button,
+    .stop-button{
+      display: block;
+    }
+  </style>
+  <title>Timer</title>
+</head>
+<body>
+<div>
+    <p class="time-frame">
+  Minutes:
+    </p>
+    <button class='button-minutes'>   
+    </button>
+    <p class="time-frame">
+  Seconds:
+    </p>
+    <button class="button-seconds">
+    </button>
+</div>
+<button class="start-button" onclick='startTime()'>
+    Start
+</button>
+<button class="stop-button" onclick="stopTime()">
+    Stop
+</button>
+<button class="restart-button" onclick='resetTime()'>
+    Restart
+</button>
+<script src="12-Timer-project.js"></script>
+</body>
+</html>
